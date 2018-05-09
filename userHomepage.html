@@ -1,0 +1,369 @@
+<html>
+<head>
+  <title> HOMEPAGE </title>
+<meta name = "viewport" content="width=device-width , initial-scale = 1.0">   
+    
+     <link rel="stylesheet" type="text/css" href="userHomepage.css">
+     <script>
+            function showAndHide(data){
+              var ele=document.getElementById('div1');
+                if(data=='show'){
+                    ele.style.display='block';
+                }else if(data=='hide'){
+                    ele.style.display='none';
+                }
+                }
+         
+            function operation(){
+            var user1=document.f.loginAs.value;
+                if(user1=='USER'){
+                    window.location="userHome.html";
+                }else if(user1=='OWNER'){
+                    window.location="restauranthomepage.html";
+                }
+            }
+         
+          function showAndHide1(data){
+              var ele=document.getElementById('div2');
+                if(data=='show'){
+                    ele.style.display='block';
+                }else if(data=='hide'){
+                    ele.style.display='none';
+                }
+          }
+         function operation1(){
+             var x = document.f1.loginAs.value;
+             if(x == 'USER'){
+                 window.location = "user.html";
+                 document.f1.submit();
+             }else if (x == 'OWNER'){
+                 window.location="registerrestaurant.html"
+             }
+         }
+         function logout(){
+        	 window.location="index.html";
+         }
+         
+         
+         
+          
+        </script>
+
+</head>
+    
+<body>
+<div class ="container">
+    <div class="header">
+       
+        <div class="buttons">
+         <button onclick="logout()"> LOGOUT </button>
+        
+            </div>
+    </div>
+    <!--ContentPart-->
+    <div class="content">
+    
+        <div class="leftpart">
+                        <div class="restaurants">
+                 <div class = "restaurantname">
+                <div class="logo">
+                      <img src="para.png"/> 
+                 </div>
+                 <div class="restname">
+                      <b> PARADISE</b>
+                 </div>
+                 </div>
+             
+               <div class="restaurantimage"> 
+                    
+                   <button class="sliderbutton1" onclick= "plusDivs1(-1)">&#10094; </button>
+                   <button class="sliderbutton2" onclick="plusDivs1(1)">&#10095; </button>
+                    <div class="image">
+                         <img src ="rest4.jpg" class="myslides1"/>
+                        <img src ="rest5.jpg" class="myslides1"/>
+                        <img src = "rest6.jpg" class="myslides1"/>
+                        <img src = "rest7.jpg" class="myslides1"/>
+                    </div>
+                   <script>
+var slideIndex = 1;
+showDivs1(slideIndex);
+
+function plusDivs1(n) {
+  showDivs1(slideIndex += n);
+}
+
+function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+                </div>
+            
+             <div class="restaurantaddress">
+              <div class ="location">
+                         
+           APHB colony , Near Talentsprint , Gachibowli.
+                     </div>
+                 
+                   <div  class="rating">
+                     <img src = "starrating.jpg"/>
+                    <img src = "starrating.jpg"/>
+                     <img src = "starrating.jpg"/>
+                     <img src = "starrating.jpg"/>
+                     </div>
+              </div>
+            </div>
+            <div class="restaurants">
+                 <div class = "restaurantname">
+                <div class="logo">
+                      <img src="TAJhotel.jpg"/> 
+                 </div>
+                 <div class="restname">
+                      <b> TAJ HOTEL</b>
+                 </div>
+                 </div>
+             
+               <div class="restaurantimage"> 
+                    
+                   <button class="sliderbutton1" onclick= "plusDivs(-1)">&#10094; </button>
+                   <button class="sliderbutton2" onclick="plusDivs(1)">&#10095; </button>
+                    <div class="image">
+                         <img src ="tajrst.jpg" class="myslides"/>
+                        <img src ="rest1.jpg" class="myslides"/>
+                        <img src = "rest2.jpg" class="myslides"/>
+                        <img src = "rest3.jpg" class="myslides"/>
+                    </div>
+                   <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+                </div>
+            
+             <div class="restaurantaddress">
+              <div class ="location">
+                         
+            570, Road No 92, OPP.KBR Park, Near Apollo Cradle, Jubilee Hills Check Post, Hyderabad, Telangana 500033.
+                     </div>
+                 
+                   <div  class="rating">
+                     <img src = "starrating.jpg"/>
+                    <img src = "starrating.jpg"/>
+                     <img src = "starrating.jpg"/>
+                     <img src = "starrating.jpg"/>
+                     </div>
+              </div>
+            </div>
+            </div>
+        
+        <div class="rightpart">
+            
+                 <div class="recipe">
+             <div class="recipeimage">
+             <img src="prawns.jpg"/>
+                 
+             </div>
+             <div class="recipedesc">
+                 <div class="recipetitle">
+                    <strong> Prawns</strong>
+                 </div>
+                <div class="recipecontent"> The best prawns I have ever had.This indian appetizer is grilled which lends it a smoky flavor.
+                    </div>
+                 <div class="recipestar">
+                     <img src ="3-star.jpg"/>
+                 </div>
+             
+             </div>
+              </div>
+                             
+            <div class="recipe1">
+             <div class="recipeimage1">
+             <img src="noodles.jpg"/>
+                 
+             </div>
+             <div class="recipedesc1">
+                 <div class="recipetitle">
+                    <strong> NOODLES </strong>
+                 </div>
+                <div class="recipecontent"> A quick dinner idea for busy week nights. Making this healthy & delicious vegetable noodles is super easy, takes only 20 mins to make 2 servings. This also goes great with a saucy Indo chinese side like gobi manchurian, veg manchurian, chilli mushroom etc. 
+                    </div>
+                 <div class="recipestar">
+                     <img src ="3-star.jpg"/>
+                 </div>
+             
+             </div>
+              </div>
+                  <div class="recipe2">
+             <div class="recipeimage2">
+             <img src="chickn.jpg"/>
+                 
+             </div>
+             <div class="recipedesc2">
+                 <div class="recipetitle">
+                    <strong> CHICKEN </strong>
+                 </div>
+                <div class="recipecontent">
+Kadai chicken recipe – or chicken karahi is one of the easiest and most flavorful dish from the Indian subcontinent. Kadai is a wok that is used to cook foods in this region. Dishes made in kadai also known as karahi are named after it like kadai chicken, kadai egg masala, kadai paneer, kadai chole, kadai mushroom, chicken karahi or karahi chicken and so on. 
+                    </div>
+                 <div class="recipestar">
+                     <img src ="3-star.jpg"/>
+                 </div>
+             
+             </div>
+              </div>
+            
+            <div class="recipe3">
+             <div class="recipeimage3">
+             <img src="biryani.jpeg"/>
+                 
+             </div>
+             <div class="recipedesc3">
+                 <div class="recipetitle">
+                    <strong> BIRYANI </strong>
+                 </div>
+                <div class="recipecontent">
+Kadai chicken recipe – or chicken karahi is one of the easiest and most flavorful dish from the Indian subcontinent. Kadai is a wok that is used to cook foods in this region. Dishes made in kadai also known as karahi are named after it like kadai chicken, kadai egg masala, kadai paneer, kadai chole, kadai mushroom, chicken karahi or karahi chicken and so on. 
+                    </div>
+                 <div class="recipestar">
+                     <img src ="3-star.jpg"/>
+                 </div>
+             
+             </div>
+              </div>
+                        <div class="recipe3">
+             <div class="recipeimage3">
+             <img src="rasgulla.jpg"/>
+                 
+             </div>
+             <div class="recipedesc3">
+                 <div class="recipetitle">
+                    <strong> RASGULLA</strong>
+                 </div>
+                <div class="recipecontent">
+Rasgulla is a syrupy dessert popular in the Indian subcontinent and regions with South Asian diaspora. It is made from ball-shaped dumplings of chhena (an Indian cottage cheese) and semolina dough, cooked in light syrup made of sugar. This is done until the syrup permeates the dumplings.
+                    </div>
+                 <div class="recipestar">
+                     <img src ="3-star.jpg"/>
+                 </div>
+             
+             </div>
+              </div>
+            <div class="recipe3">
+             <div class="recipeimage3">
+             <img src="dhokla.jpg"/>
+                 
+             </div>
+             <div class="recipedesc3">
+                 <div class="recipetitle">
+                    <strong> DHOKLA </strong>
+                 </div>
+                <div class="recipecontent">
+Dhokla preparation requires fermentation. The fermented batter is made with rice and chana dal. Rice and chana dal are soaked overnight. The mixture is later formed into a paste and is fermented overnight. After the fermenting time, it is mixed with other ingredients to make a tasty snack.
+                    </div>
+                 <div class="recipestar">
+                     <img src ="3-star.jpg"/>
+                 </div>
+             
+             </div>
+              </div>
+            <div class="recipe3">
+             <div class="recipeimage3">
+             <img src="mocktails.jpg"/>
+                 
+             </div>
+             <div class="recipedesc3">
+                 <div class="recipetitle">
+                    <strong> MOCKTAILS </strong>
+                 </div>
+                <div class="recipecontent">
+Dhokla preparation requires fermentation. The fermented batter is made with rice and chana dal. Rice and chana dal are soaked overnight. The mixture is later formed into a paste and is fermented overnight. After the fermenting time, it is mixed with other ingredients to make a tasty snack.
+                    </div>
+                 <div class="recipestar">
+                     <img src ="3-star.jpg"/>
+                 </div>
+             
+             </div>
+              </div>
+            
+            
+            
+            
+            
+            
+            
+              </div>
+            
+    
+        
+    </div>
+    <!--endofContent-->
+     
+        
+         
+<div class="footer">
+         
+    Copyright &copy 2018
+    </div>
+    <!--LoginApp-->
+ <div class="loginApp" id="div1">
+    <div class="formdiv">
+    <img src="/Images/3.png"onclick="showAndHide('hide')"/>
+        <form name="f" class="userF">
+            
+            <label>USERNAME:</label><input type="text" name="uname" required/><br/>
+            <label>PASSWORD:</label><input type="password" name="pwd" required/><br/>
+            
+             <label>LOGINAS</label>: <br/>
+            <input type="radio" name="loginAs" value="USER">USER<br/>
+            <input type="radio" name="loginAs" value="OWNER">OWNER<br/>
+            <input type="button" value="LOGIN" onclick="operation()" class="b"/>
+            
+        </form>
+    </div>
+ </div>  
+    <!--end of LoginApp-->
+    <!--Register-->
+<div class="register" id="div2">
+        <div class="regdiv">
+          <img src="/Images/3.png"onclick="showAndHide1('hide')"/>  <form name="f1" class="regF">
+            <label> REGISTER AS:</label><br/>
+            
+            <input type="radio" name="loginAs" value="USER">USER<br/>
+            <input type="radio" name="loginAs" value="OWNER">OWNER<br/>
+            <input type="button" value="CONTINUE" onclick="operation1()" class="b1"/>
+            
+            
+            
+            </form>  
+        </div>
+    </div>
+        <!--end of Register-->
+    
+    </div> 
+
+</body>
+
+
+</html>

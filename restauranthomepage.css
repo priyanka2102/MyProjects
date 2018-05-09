@@ -1,0 +1,94 @@
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: firebrick;
+}
+.b{
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 10%;
+    height: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.contentpart{
+    width: 100%;
+    height: 80%;
+    background-color: azure;
+}
+.home1{
+    width: 40%;
+    height: 40%;
+    border: 1px solid green;
+}
+.image{
+    width: 100%;
+    height: 70%;
+    float: left;
+}
+.image img{
+    width: 100%;
+    height: 99%;
+    border-radius: 10%;
+    z-index: 2;
+}
+.image button{
+    position: sticky;
+}
+.sliderbutton1{
+    z-index: 10;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    margin-top: 60px;
+    background-color: rebeccapurple;
+    border-radius: 20px
+    
+}
+.sliderbutton2{
+    z-index: 10;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    margin-top: 60px;
+    margin-left: 480px;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    
+}
+.addbn{
+    width: 40%;
+    height: 30%;
+   /* margin-right: 330px;*/
+    
+}
+.addbn img{
+    width: 50px;
+    height: 40px;
+    margin-right: 390px;
+    margin-top: 20px;
+    padding-right: 100px;
+    position: absolute;
+}
+.icons{
+    width: 100%;
+    height: 30%;
+}
+.icons img{
+    float:left;
+    height: 40px;
+    width: 30px;
+}
+
+.footer{
+    width: 100%;
+background-color: firebrick;
+    height: 10%;
+}

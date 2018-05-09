@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Restaurat register form</title>
+<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+
+ <div align="center">
+<h2>RESTAURANT REGSTER FORM</h2>
+<table bgcolor="green" border="0px">
+<form action="urbanspoonController" method="post" enctype="multipart/form-data">
+<input type="hidden" name="action" value="registerForm"/>
+<tr>
+<td>GOVT_ID:</td><td><input type="text"name="govid"required="required"/></td>
+</tr>
+<tr>
+<td>NAME:</td><td><input type="text"name="name"required="required"/></td>
+</tr>
+<tr>
+<td>PASSWORD:</td><td><input type="password"name="pwd"required="required"/>
+	   </tr>
+	   <tr>
+<td>LOGO:</td><td><input type="file"name="logo"required="required"><br></td>
+</tr>
+
+<tr align="center">
+<td><input type="submit"value="restaurant_register"></td>
+
+<td colspan="2"><input type="button"value="reset"></td>
+</tr>
+</form>
+</table>
+</div>
+       
+</body>
+</html>

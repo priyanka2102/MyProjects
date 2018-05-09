@@ -1,0 +1,407 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+        
+}
+
+.header{
+         width: 100%;
+             height: 15%;
+             background-color:red;
+             color:red;
+             text-align: center;
+            
+            
+         }
+.buttons{
+    float: right;
+    padding: 15px;
+   color: blue;
+   cursor: auto;
+   margin-bottom: 10px;
+}
+button{
+     color:white;
+    background-color:black;
+    border-radius: 20px;
+    width: 100px;
+    border: 2pxsolid white;
+    
+}
+.title{
+    width: 50%;
+    height: 15%;
+    margin-left: 20px;
+    
+}
+.title img{
+    margin-top: 10px;
+    width: 200px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 20%;
+    float:left;
+}
+
+  .content{
+                width: 100%;
+             height: 75%;
+             background-color:bisque;
+            
+         }
+.leftpart{
+    width: 49.5%;
+    height: 99%;
+   overflow: scroll;
+    background-color: blue;
+    float: left; 
+    border: 1px solid black;
+    }
+.rightpart{
+     width: 49.5%;
+    height: 99%;
+    overflow: scroll;
+    background-color: blue;
+    float: right; 
+    
+}
+.restaurants{
+    width: 100%;
+    height: 80%;
+}
+.restaurantname{
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+   
+}
+.logo{
+    width: 30%;
+    height: 40%;
+    
+   
+}
+.logo img{
+    width: 100px;
+    height: 25px;
+    float: left;
+   /* border: 1px solid black;*/
+    border-radius: 20%;
+}
+.restname{
+    width: 50%;
+    height: 50%;
+    color: deeppink;
+   margin-left: 160px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    /*border: 1px solid black;*/
+    
+   
+}
+/*.rating{
+     width: 30%;
+    height: 50%;
+    float: right;
+    position: relative;
+     border: 1.5px solid black;
+
+}
+.rating img{
+    width: 10%;
+    height: 50%;
+    float: right;
+    margin-left: 160px;
+    position: relative;
+    padding-bottom: 8px;
+    
+   }*/
+
+.restaurantimage{
+    width: 100%;
+    height: 70%;
+    background-color: dimgrey;
+    
+}
+.image{
+    width: 100%;
+    height: 100%;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+   z-index: 2;
+    
+}
+.sliderbutton1{
+    z-index: 20;
+    float: left;
+    position: absolute;
+    margin-top: 100px;
+
+    width: 30px;
+    height: 20px;
+}
+.sliderbutton2{
+    z-index: 10;
+    float: right;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 562px;
+    width: 30px;
+    height: 20px;
+}
+
+.restaurantaddress{
+    width: 100%;
+    height: 20%;
+    background-color:white;
+}
+.location{
+   
+    width: 49.5%;
+    height: 98%;
+    position: relative;
+    border: 1px solid black;
+    float:left;
+    font-size: 15px;
+    text-align: center;
+    text-decoration-style: wavy;
+    color: blue;
+    
+}
+.rating{
+        width: 49.5%;
+    height: 98%;
+    border: 1px solid black;
+    position: relative;
+    
+    float: right;
+    left: 1px;
+    
+    
+}
+.rating img{
+    width: 12%;
+    height: 30px;
+    margin-left: 8px;
+   padding-top: 5px;
+    position: relative;
+}
+.recipe{
+    width: 100%;
+    height: 50%
+        
+}
+.recipeimage{
+    width: 49%;
+    height: 99%;
+    float: left;
+    border: 2px solid black;
+    position: relative;
+}
+.recipeimage img{
+    width: 100%;
+    height: 100%;
+}
+.recipedesc{
+    width: 49%;
+    height: 99%;
+    position: relative;
+    border: 2px solid black;
+    float :right;
+}
+.recipetitle{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+.recipecontent{
+    width: 100%;
+    height: 60%;
+    overflow: scroll;
+    
+}
+.recipestar{
+    width: 100%;
+    height: 20%;
+  
+}
+.recipestar img{
+    width: 50%;
+    height: 100%;
+}
+
+.recipe1{
+    width: 100%;
+    height: 50%
+        
+}
+.recipeimage1{
+    width: 49%;
+    height: 99%;
+    float: left;
+    border: 2px solid black;
+    position: relative;
+}
+.recipeimage1 img{
+    width: 100%;
+    height: 100%;
+}
+.recipedesc1{
+    width: 49%;
+    height: 99%;
+    position: relative;
+    border: 2px solid black;
+    float :right;
+}
+.recipe2{
+    width: 100%;
+    height: 50%
+        
+}
+.recipeimage2{
+    width: 49%;
+    height: 99%;
+    float: left;
+    border: 2px solid black;
+    position: relative;
+}
+.recipeimage2 img{
+    width: 100%;
+    height: 100%;
+}
+.recipedesc2{
+    width: 49%;
+    height: 99%;
+    position: relative;
+    border: 2px solid black;
+    float :right;
+}
+.recipe3{
+    width: 100%;
+    height: 50%
+        
+}
+.recipeimage3{
+    width: 49%;
+    height: 99%;
+    float: left;
+    border: 2px solid black;
+    position: relative;
+}
+.recipeimage3 img{
+    width: 100%;
+    height: 100%;
+}
+.recipedesc3{
+    width: 49%;
+    height: 99%;
+    position: relative;
+    border: 2px solid black;
+    float :right;
+}
+
+
+
+         .footer{
+             width: 100%;
+             height: 10%;
+             background-color:red; 
+             color: azure;
+             font-family:fantasy;
+             text-align: center;
+            
+         }
+.loginApp{
+display: none;
+position: absolute;
+top:0px;
+margin:0px;
+z-index:30;
+opacity:0.91;
+width:100%;
+height:100%;
+background-color: black;
+}
+.formdiv{
+width:20%;
+height:40%;
+margin-top:50px;
+margin-left:440px;
+position: relative;
+background-color:darkseagreen;
+padding:40px;
+opacity: 0.95;
+   border-radius: 20px;
+}
+.userF{
+font-family:serif;
+font-size:20px;
+}
+.b{
+background-color: red;
+color:black;
+width:80px;
+height:25px;
+font-size:10px;
+border-radius:10px;
+margin-left:100px;
+margin-top: 20px;
+}
+.formdiv img{
+width:20px;
+height:20px;
+margin-left:290px;
+position:relative;
+bottom:42px;
+}
+.register{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.95;
+    top:0px;
+    z-index: 20;
+    display: none;
+    position: absolute;
+}
+.regdiv{
+ width: 20%;
+ height: 40%;
+margin-top:100px;
+margin-left:440px;
+position: relative;
+background-color:darkseagreen;
+padding:40px;
+opacity: 0.99;
+border-radius: 10px;
+    
+}
+.regdiv img{
+width:20px;
+height:20px;
+margin-left:295px;
+position:relative;
+bottom:42px;
+    
+}
+.regF{
+    font-family: sans-serif;
+font-size:20px;
+    
+}
+.b1{
+background-color: red;
+color:black;
+width:90px;
+height:20px;
+border-radius:20px;
+margin-left:80px;
+margin-top: 80px;
+}
